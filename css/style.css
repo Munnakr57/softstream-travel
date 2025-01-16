@@ -14,6 +14,7 @@ ul {
 }
 
 .hero-section{
+    background-color: rgb(255 85 255 / 50%);
     background-image: url("../images/Soft.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;
