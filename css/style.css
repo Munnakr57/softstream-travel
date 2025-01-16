@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    box-sizing: border-box
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+.hero-section{
+    background-image: url("../images/Soft.jpg");
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 30px;
+}
+
+.col-wraper{
+    max-width: 1170px;
+    width:1170px;
+    margin: 0 auto;
+}
+
+.row h1{
+    color:#fff;
+    font-size: 45px;
+    line-height: 1.2em;
+    margin-bottom:20px;
+   
+}
+
+.hero-paragraph{
+    color:#fff;
+    font-size:20px;
+    line-height: 1.6em;
+}
+.usp{
+    background-color: #FEFAF6;
+}
+.img-thumbnail{height:250px !important;}
+
+.fa-star:before {
+    content: "\f005";
+}
+
+
+/* contact */
+
+.subtitle {
+    font-size: 16px;
+    color: #1F3347;
+    letter-spacing: 0.2em;
+    margin-bottom: 1rem !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.contact__info-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #988c13;
+    border-radius: 50%;
+    color: #1F3347;
+}
+.contact__info-icon {
+    display: grid;
+    place-items: center;
+}
+.contact__info-item {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h6{
+    font-family: "Gilda Display", serif;
+    color: #1F3347;
+    line-height: 1.25;
+    font-weight: 700;
+}
+.contact__info-item:not(:last-child) {
+    margin-block-end: 25px;
+}
+.contact__info-content h6 {
+    margin-block-end: 5px;
+}
+
+.contact__info-content p a {
+    color: #70717B;
+    text-decoration: none;
+}
